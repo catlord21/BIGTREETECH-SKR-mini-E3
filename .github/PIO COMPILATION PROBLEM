@@ -1,0 +1,21 @@
+Description :
+Complilation of the firware 1.2 (and 1.0 also) lead directly to errors.
+
+
+Steps to reproduce
+[First Step]
+- download the firmware for the SKR Mini E3. 
+I try to compile it without touching anything and i have the following error messages :
+[Second Step]
+opening  the project  [...\BIGTREETECH-SKR-mini-E3-master\firmware\V1.2\Marlin-2.0.x-SKR-Mini-E3-V1.2] with PIO extension in visual studio code. 
+third step]
+when upacking the project, the following message appears :
+[Unpacking...
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Google Drive\\IMPRESSION 3D\\ender3\\FIRMWARE\\BIGTREETECH-SKR-mini-E3-master\\firmware\\V1.2\\Marlin-2.0.x-SKR-Mini-E3-V1.2\\.pio\\libdeps\\STM32F103RC_bigtree_NOUSB\\_tmp_installing-h0rb4nhz-package\\U8glib-HAL-bugfix\\src\\clib\\HAL_example_files\\LCD_I2C_routines.c.example':]
+
+Expected behavior
+a normal compilation :)
+
+Actual behavior
+failed compilation
+
